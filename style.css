@@ -28,6 +28,20 @@ body {
   }
 }
 
+.title {
+  font-size: 2rem;
+  color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    position: relative;
+    top: -216px;
+    font-size: 2rem;
+    color: yellow;
+  }
+}
+
 .flower_wrapper {
   position: absolute;
   left: 50%;
