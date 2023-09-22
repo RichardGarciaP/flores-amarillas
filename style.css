@@ -19,6 +19,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,7 +31,7 @@ body {
 .flower_wrapper {
   position: absolute;
   left: 50%;
-  bottom: 2vmin;
+  bottom: 8vmin;
   animation: moving-flower-1 4s linear infinite;
 }
 
